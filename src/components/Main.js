@@ -238,7 +238,6 @@ var AppComponent= React.createClass({
             halfImgW=Math.ceil(imgW/2),
             halfImgH=Math.ceil(imgH/2);
         // 计算中心图片的位置点
-        console.log(this.refs.imgFigure0);
         this.Constant.centerPos={
             left:halfStageW-halfImgW,
             top:halfStageH-halfImgH
